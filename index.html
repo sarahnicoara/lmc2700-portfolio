@@ -89,7 +89,7 @@ body, html {
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
+  <h2 class="w3-center">ABOUT ME</h2>
   <p>Howdy! I'm a 3rd-year computational media student at the Georgia Institute of Technology, with a focus on interactive design and people. I’m passionate about people and design, and as result, I am eager in pursuing a career in UX/UI.<br><br>
     In my academic career, I’ve learned that good design, is centered around the user. Creating design that maximizes user experience but still keeps into consideration the overall aesthetic is why I love UX/UI.<br><br>
     I chose to study Computational Media at tech because it's the perfect balance between using creative and technical skills to create interfaces while still keeping in mind efficiency. Computational Media has also helped me understand and improve my web development skills which are important to know in integrating design with usability. Ultimately, I’m passionate about my studies and can’t wait to further improve and apply my skills.   </p>
@@ -132,7 +132,7 @@ body, html {
     </div>
   </div>
 </div>
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+<!-- <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge"></span><br>
   </div>
@@ -145,45 +145,141 @@ body, html {
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge"></span><br>
   </div>
-</div>
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-  </div>
-</div>
+</div> -->
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-32" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
+<div class="w3-row-padding w3-padding-64 w3-container" id="portfolio">
+  <h2 class="w3-center">MY WORK</h2>
   <p class="w3-center"><em>Here you'll find a collection of projects I have worked on either at school or just in my free time.
      <br> Click on the images to make them bigger
     <br>Hope you enjoy :)</em></p><br>
+</div>
+<!-- <div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-half">
+      <h1>Jordle</h1>
+      <h5 class="w3-padding-32">In my Object Oriented Programming class, we were tasked with creating a GUI application using UI various controls,
+         layout management, and UI event handling using JavaFX.</h5>
 
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-   <div class="w3-row-padding w3-padding-48 w3-center" id="projects">
-    <div class="w3-third">
-      <img src="jordle.jpeg" onclick="onClick(this)" class = "w3-hover-opacity" alt="Jordle" style="width:100%" height = "350">
-      <h3>Jordle</h3>
-      <p>In my Object Oriented Programming class, we were tasked with creating a GUI application using UI various controls, layout management, and UI event handling using JavaFX. </p>
-      <p>As a result, I made “Jordle” which encapsulates Wordle but is java themed. This project encompasses all aspects of abstraction, encapsulation, inheritance, and polymorphism along with the ideas of general UI design to create this game.</p>
+      <h5 class="w3-text-grey">As a result, I made “Jordle” which encapsulates Wordle but is java themed. This project encompasses all aspects of abstraction,
+         encapsulation, inheritance, and polymorphism along with the ideas of general UI design to create this game.</h5>
     </div>
-    <div class="w3-third">
-      <iframe width="320" height="300" src="https://www.youtube.com/embed/U5vlEpl4sNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <h3><br>Life's Too Short</h3>
-      <p>My final project for my Video Production class combined concepts of a montage, telling a story, and making a music video all in one.</p>
-      <p>It tells the story of a college student pursuing art beyond just a means of emotional distress. She is seen pursuing her creativity regardless of what her mom or others expect of her, because in the end, life is too short to take too seriously.</p>
-      <p>Overall, the purpose of this project is to capture creativity and to convey the message to pursue your passions and too live life to its fullest. </p>
-    </div>
-    <div class="w3-third">
-      <img src="Cheese's.jpg" onclick="onClick(this)" class = "w3-hover-opacity" alt="Cheese's" style="width:100%" height="350">
-      <h3>Cheese's</h3>
-      <p>In my Principles of Visual Design class, our final project was a group project in which we were tasked to design a brand/corporation identity system accompanied by traditional style guides.</p>
-      <p>As a group, we decided that it would be fun to rebrand a company that played a core role in our childhoods. That company being, Chuck E. Cheese! As a result, we thought it would be cool to bring a sense of nostalgia to adult entertainment by creating Cheese's, a casino and resort.</p>
-      <p>The project consisted of us establishing our brand, mission statemnt, an event hosted by our brand, a billboard, merchandise, a website mockup, and a business card. It was a really fun project that my group really enjoyed collaborating on. Click on the picture for more information:)</p>
+    <div class="w3-half w3-center">
+      <img src="jordle.jpeg" onclick="onClick(this)" class = "w3-hover-opacity" alt="Jordle" style="width: 110%" height = "555">
     </div>
   </div>
+</div> -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-half">
+      <h1>Jordle</h1>
+      <h5 class="w3-padding-32">In my Object Oriented Programming class, we were tasked with creating a GUI application using UI various controls,
+         layout management, and UI event handling using JavaFX.</h5>
+
+      <h5 class="w3-text-grey">As a result, I made “Jordle” which encapsulates Wordle but is java themed. This project encompasses all aspects of abstraction,
+         encapsulation, inheritance, and polymorphism along with the ideas of general UI design to create this game.</h5>
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlide">
+      <img src="Jordle.jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlide">
+      <img src="Jordle (1).jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlide">
+      <img src="Jordle (2).jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlide">
+      <img src="Jordle (3).jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-center w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs1(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs1(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demo w3-border w3-transparent w3-hover-white" onclick="currentDiv1(1)"></span>
+        <span class="w3-tag demo w3-border w3-transparent w3-hover-white" onclick="currentDiv1(2)"></span>
+        <span class="w3-tag demo w3-border w3-transparent w3-hover-white" onclick="currentDiv1(3)"></span>
+        <span class="w3-tag demo w3-border w3-transparent w3-hover-white" onclick="currentDiv1(4)"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-half">
+      <iframe width = "420" height = "400" src="https://www.youtube.com/embed/U5vlEpl4sNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="w3-half w3-text-grey">
+      <h1>Life's Too Short</h1>
+      <h5 class="w3-padding-32">My final project for my Video Production class combined concepts of a montage, telling a story, and making a music video all in one.
+
+      </h5>
+
+      <h5 class="w3-text-grey">It tells the story of a college student pursuing art beyond just a means of emotional distress. She is seen pursuing her creativity regardless of what her mom or others expect of her,
+         because in the end, life is too short to take too seriously. Overall, the purpose of this project is to capture creativity and to convey the message to pursue your passions and too live life to its fullest. </h5>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-half">
+      <h1>Cheese's</h1>
+      <h5 class="w3-padding-32">In my Principles of Visual Design class, our final project was a group project in which we were tasked to design a brand/corporation identity system accompanied by traditional style guides.</h5>
+
+      <h5 class="w3-padding-32 w3-text-grey">As a group, we decided that it would be fun to rebrand a company that played a core role in our childhoods. That company being, Chuck E. Cheese! As a result, we thought it would be cool to bring a sense of nostalgia 
+        to adult entertainment by creating Cheese's, a casino and resort. The project consisted of us establishing our brand, mission statement, an event hosted by our brand, a billboard, merchandise, a website mockup, and a business card. 
+        It was a really fun project that my group really enjoyed collaborating on. Click on the picture for more information:) </h5>
+    </div>
+    <div class="w3-half w3-center">
+      <img src="border space.png" style="width: 100%" height = "70">
+    </div> 
+    <div class="w3-half w3-center w3-display-container mySlides">
+      <img src="05_Final_pg00.jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlides">
+      <img src="05_Final_pg01.jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlides">
+      <img src="05_Final_pg02.jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlides">
+      <img src="05_Final_pg03.jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlides">
+      <img src="05_Final_pg04.jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-half w3-center w3-display-container mySlides">
+      <img src="05_Final_pg05.jpg" onclick="onClick(this)" class = "w3-hover-opacity" style="width: 110%" height = "550">
+    </div>
+    <div class="w3-col margin w3-center w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-half w3-center">
+      <img src="AccessCorps Outreach sub-team.jpg" onclick="onClick(this)" class = "w3-hover-opacity" alt="AccessCORPS" width = "420" height = "400">
+    </div>
+    <div class="w3-half w3-text-grey">
+      <h1>AccessCORPS VIP</h1>
+      <h5 class="w3-padding-32">My final project for my Video Production class combined concepts of a montage, telling a story, and making a music video all in one.
+      </h5>
+      <h5 class="w3-text-grey">It tells the story of a college student pursuing art beyond just a means of emotional distress. She is seen pursuing her creativity regardless of what her mom or others expect of her,
+         because in the end, life is too short to take too seriously. Overall, the purpose of this project is to capture creativity and to convey the message to pursue your passions and too live life to its fullest. </h5>
+    </div>
+  </div>
+</div>
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -195,11 +291,11 @@ body, html {
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<!-- <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   </div>
-</div>
+</div> -->
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
@@ -207,16 +303,17 @@ body, html {
   <p class="w3-center"><em>I'd love your feedback!</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
+    <div class="w3-container w3-half">
       <img src="atlanta.jpg" class="w3-image w3-round" style="width:100%">
     </div>
-    <div class="w3-col m8 w3-panel">
+    <div class="w3-half w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Atlanta, US<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Atlanta, GA<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 404-917-7500<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: snicoara3@gatech.edu<br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <!-- contact form-->
+      <!-- <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -230,7 +327,7 @@ body, html {
         <button class="w3-button w3-black w3-right w3-section" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
-      </form>
+      </form> -->
     </div>
   </div>
 </div>
@@ -278,6 +375,67 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+var slideIndex1 = 1;
+showDivs1(slideIndex1);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex1 += n);
+}
+
+function currentDiv1(n) {
+  showDivs1(slideIndex1 = n);
+}
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlide");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex1-1].style.display = "block";  
+  dots[slideIndex1-1].className += " w3-white";
+}
+
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+
 </script>
 
 </body>
